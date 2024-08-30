@@ -68,7 +68,7 @@ class CenteredLayoutDelegate extends MultiChildLayoutDelegate {
       rightGap != oldDelegate.rightGap;
 }
 
-class CenteredMultiChildLayout extends StatelessWidget {
+class SingleCenteredMultiChildLayout extends StatelessWidget {
   final Widget centeredWidget;
   final Widget? bottomWidget;
   final Widget? topWidget;
@@ -79,7 +79,7 @@ class CenteredMultiChildLayout extends StatelessWidget {
   final double leftGap;
   final double rightGap;
 
-  const CenteredMultiChildLayout(
+  const SingleCenteredMultiChildLayout(
     this.centeredWidget, {
     this.bottomWidget,
     this.topWidget,

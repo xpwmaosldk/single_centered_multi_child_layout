@@ -1,6 +1,6 @@
 name: single_centered_multi_child_layout
 description: "This is a very simple widget that allows you to fix one widget in the center and place other widgets around it."
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/xpwmaosldk/single_centered_multi_child_layout
 
 environment:
